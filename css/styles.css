@@ -457,10 +457,16 @@ img {
 .web {
    padding-top: 100px;
    padding-bottom: 16px;
+   display: inline-block;
+   margin-bottom: 16px;
 }
 
 .footer-paragraph {
 
    padding-bottom: 100px;
    width: 264px;
+}
+
+.end {
+   padding: 100px 0;
 }
