@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-   max-width: 1128px;
+   max-width: 1158px;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
@@ -82,6 +82,7 @@ img {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4D5AE5;
+   margin-right: 76px;
 }
 
 .edit-studio {
@@ -120,10 +121,15 @@ img {
 }
 
 /* edit flexbox in header */
+
+   .header {
+      border-bottom: 1px solid #e7e9fc;
+   }
+
 .header-container {
    display: flex;
    align-items: center;
-   border-bottom: 1px solid #E7E9FC;
+   
 
 }
 
@@ -135,6 +141,7 @@ img {
 
 .header-list {
    display: flex;
+   
 }
 
 .header-item {
