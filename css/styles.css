@@ -106,7 +106,14 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2E2F42;
+}
 
+.link-nav:hover {
+   color: #404BBF;
+}
+
+.link-nav:focus {
+   color: #404BBF;
 }
 
 /* edit address */
@@ -118,6 +125,14 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+}
+
+.list-contact:hover {
+   color: #404BBF;
+}
+
+.list-contact:focus {
+   color: #404BBF;
 }
 
 /* edit flexbox in header */
@@ -221,6 +236,14 @@ img {
    min-width: 169px;
    height: 56px;
    border: none;
+}
+
+.button:hover {
+   background-color: #404BBF;
+}
+
+.button:focus {
+   background-color: #404BBF;
 }
 
 
@@ -455,15 +478,13 @@ img {
 /* edit footer */
 
 .web {
-   padding-top: 100px;
-   padding-bottom: 16px;
    display: inline-block;
    margin-bottom: 16px;
 }
 
 .footer-paragraph {
 
-   padding-bottom: 100px;
+ 
    width: 264px;
 }
 
