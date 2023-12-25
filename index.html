@@ -15,133 +15,157 @@
 </head>
 
 <body>
+  <!-- start header -->
   <header>
-    <nav>
-      <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>
-      <ul class=" list-style">
-        <li><a class="nav" href="./index.html">Studio</a></li>
-        <li><a class="nav" href="">Portfolio</a></li>
-        <li><a class="nav" href="">Contacts</a></li>
-      </ul>
-    </nav>
-    <address class="adres" id="contacts">
-      <ul class=" list-style">
-        <li>
-          <a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
+    <div class="header-container container">
+      <a class="edit-web" href="./index.html">Web<span class="edit-studio">Studio</span></a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a class="link-nav" href="#studio">Studio</a></li>
+          <li class="header-item"><a class="link-nav" href="#portfolio">Portfolio</a></li>
+          <li class="header-item"><a class="link-nav" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <address id="contacts">
+        <ul class="header-contacts contacts">
+          <li class="contacts-item">
+            <a class="list-contact" href="mailto: info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="list-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
   </header>
+
+  <!-- start main -->
   <main>
-    <!-- hero image -->
-    <section class="hero-image">
-      <h1 class="title">Effective Solutions for Your Business</h1>
-      <button class="button" type="button">Order Service</button>
+
+    <!-- start hero -->
+    <section class="hero">
+      <div class="hero-container container">
+        <h1 class="hero-title">Effective Solutions
+          for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
+      </div>
     </section>
-    <section id="studio">
-      <h2 hidden>hidden header</h2>
-      <ul class=" list-style">
-        <li>
-          <h3 class="title-one">Strategy</h3>
-          <p class="title-text">
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-        <li>
-          <h3 class="title-one">Punctuality</h3>
-          <p class="title-text">
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-        </li>
-        <li>
-          <h3 class="title-one">Diligence</h3>
-          <p class="title-text">
-            Research and confirm brands that present the strongest digital
-            growth opportunities and minimize risk.
-          </p>
-        </li>
-        <li>
-          <h3 class="title-one">Technologies</h3>
-          <p class="title-text">
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
-        </li>
-      </ul>
+
+    <!-- start description -->
+    <section class="description section" id="studio">
+      <div class="container">
+        <h2 class="visually-hidden">description</h2>
+        <ul class="description-list">
+          <li class="description-item">
+            <h3 class="description-title">Strategy</h3>
+            <p class="description-paragraph">Our goal is to identify the business
+              problem to walk away with the perfect and creative solution.</p>
+          </li>
+          <li class="description-item" class="description-item">
+            <h3 class="description-title">Punctuality</h3>
+            <p class="description-paragraph">Bring the key message to the brand's audience for the best
+              price
+              within the shortest possible
+              time.</p>
+          </li>
+          <li class="description-item">
+            <h3 class="description-title">Diligence</h3>
+            <p class="description-paragraph">Research and confirm brands that present the strongest digital
+              growth opportunities and minimize
+              risk.</p>
+          </li>
+          <li class="description-item">
+            <h3 class="description-title">Technologies</h3>
+            <p class="description-paragraph">Design practice focused on digital experiences. We bring forth
+              a
+              deep passion for
+              problem-solving.</p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="fon">
-      <h2 class="text">Our Team</h2>
-      <ul class=" list-style">
-        <li class="fonn">
-          <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260" />
-          <h3 class="our-team">Mark Guerrero</h3>
-          <p class="mark">Product Designer</p>
-        </li>
-        <li class="fonn">
-          <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260" />
-          <h3 class="our-team">Tom Ford</h3>
-          <p class="mark">Frontend Developer</p>
-        </li>
-        <li class="fonn">
-          <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260" />
-          <h3 class="our-team">Camila Garcia</h3>
-          <p class="mark">Marketing</p>
-        </li>
-        <li class="fonn">
-          <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260" />
-          <h3 class="our-team">Daniel Wilson</h3>
-          <p class="mark">UI Designer</p>
-        </li>
-      </ul>
+
+    <!-- start our team -->
+    <section class="our-team section">
+      <div class="container">
+        <h2 class="our-title">Our Team</h2>
+        <ul class="our-list">
+          <li class="people-team">
+            <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260">
+            <h3 class="team-title">Mark Guerrero</h3>
+            <p class="team-paragraph">Product Designer</p>
+          </li>
+          <li class="people-team">
+            <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260">
+            <h3 class="team-title">Tom Ford</h3>
+            <p class="team-paragraph">Frontend Developer</p>
+          </li>
+          <li class="people-team">
+            <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260">
+            <h3 class="team-title">Camila Garcia</h3>
+            <p class="team-paragraph">Marketing</p>
+          </li>
+          <li class="people-team">
+            <img src="./images/daniel.jpg" alt=">Daniel Wilson" width="264" height="260">
+            <h3 class="team-title">Daniel Wilson</h3>
+            <p class="team-paragraph">UI Designer</p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section>
-      <h2 class="portfolio">Our Portfolio</h2>
-      <ul class=" list-style">
-        <li>
-          <img src="./images/banking.jpg" alt="Banking App" width="360" height="300" />
-          <h3 class="app">Banking App</h3>
-          <p class="paragraph">App</p>
-        </li>
-        <li>
-          <img src="./images/cashless.jpg" alt="Cashless Payment" width="360" height="300" />
-          <h3 class="app">Cashless Payment</h3>
-          <p class="paragraph">Marketing</p>
-        </li>
-        <li>
-          <img src="./images/meditation.jpg" alt="Meditation App" width="360" height="300" />
-          <h3 class="app">Meditation App</h3>
-          <p class="paragraph">App</p>
-        </li>
-        <li>
-          <img src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300" />
-          <h3 class="app">Taxi Service</h3>
-          <p class="paragraph">Marketing</p>
-        </li>
-        <li>
-          <img src="./images/screen.jpg" alt="Screen Illustrations" width="360" height="300" />
-          <h3 class="app">Screen Illustrations</h3>
-          <p class="paragraph">Design</p>
-        </li>
-        <li>
-          <img src="./images/online.jpg" alt="Online Courses" width="360" height="300" />
-          <h3 class="app">Online Courses</h3>
-          <p class="paragraph">Marketing</p>
-        </li>
-      </ul>
+
+    <!-- start portfolio -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio-title">Our Portfolio</h2>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-services">
+            <img src="./images/banking.jpg" alt="Banking App" width="360" height="300">
+            <h3 class="services-title">Banking App</h3>
+            <p class="services-paragraph">App</p>
+          </li>
+          <li class="portfolio-services">
+            <img src="./images/cashless.jpg" alt="Cashless Payment" width="360" height="300">
+            <h3 class="services-title">Cashless Payment</h3>
+            <p class="services-paragraph">Marketing</p>
+          </li>
+          <li class="portfolio-services">
+            <img src="./images/meditation.jpg" alt="Meditation App" width="360" height="300">
+            <h3 class="services-title">Meditation App</h3>
+            <p class="services-paragraph">App</p>
+          </li>
+          <li class="portfolio-services">
+            <img src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300">
+            <h3 class="services-title">Taxi Service</h3>
+            <p class="services-paragraph">Marketing</p>
+          </li>
+          <li class="portfolio-services">
+            <img src="./images/screen.jpg" alt="Screen Illustrations" width="360" height="300">
+            <h3 class="services-title">Screen Illustrations</h3>
+            <p class="services-paragraph">Design</p>
+          </li>
+          <li class="portfolio-services">
+            <img src="./images/online.jpg" alt="Online Courses" width="360" height="300">
+            <h3 class="services-title">Online Courses</h3>
+            <p class="services-paragraph">Marketing</p>
+          </li>
+        </ul>
+      </div>
     </section>
+
   </main>
+
+  <!-- start footer -->
   <footer class="end">
-    <a class="logo" href="./index.html">Web<span class="logo-web-one">Studio</span></a>
-    <p class="goes">
-      Increase the flow of customers and sales for your business with digital
-      marketing & growth solutions.
-    </p>
+    <div class="container">
+      <a class="edit-web web" href="/index.html">Web<span class="edited-studio">Studio</span></a>
+      <p class="footer-paragraph">Increase the flow of customers and sales for your business with digital
+        marketing &
+        growth solutions.</p>
+    </div>
   </footer>
+
 </body>
 
 </html>
