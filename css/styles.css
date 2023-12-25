@@ -377,6 +377,8 @@ img {
 .portfolio-list {
    display: flex;
    flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
 
 
 }
@@ -385,7 +387,13 @@ img {
 
 .portfolio-services {
    width: 360px;
-   margin-right: 24px;
+
+}
+
+.name-apps {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
 }
 
 .portfolio-services:last-child {
@@ -395,12 +403,11 @@ img {
 
 
 .services-title {
-   margin-top: 32px;
    margin-bottom: 8px;
 }
 
 .services-paragraph {
-   margin-bottom: 32px;
+
 }
 
 /* start footer */
