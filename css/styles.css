@@ -86,15 +86,9 @@ img {
 }
 
 .edit-studio {
-   font-family: Raleway;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
+  
    color: #2E2F42;
-   margin-right: 76px;
+   
 }
 
 /* edit nav */
@@ -279,7 +273,7 @@ img {
 }
 
 .description-item {
-   width: 264px;
+   width: calc((100%-24px*3)/4);
 }
 
 /* edit our team */
@@ -329,13 +323,12 @@ img {
 
 .our-list {
    display: flex;
-   padding-bottom: 32px;
    gap: 24px;
 }
 
 .people-team {
    border-radius: 0px 0px 4px 4px;
-   width: 264px;
+   width: calc((100%-24px*3)/4);
    background-color: #FFF;
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -409,7 +402,7 @@ img {
 
 
 .portfolio-services {
-   width: 360px;
+   width: calc((100%-24px*2)/3);
 
 }
 
@@ -441,13 +434,6 @@ img {
 
 
 .edited-studio {
-   font-family: Raleway;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
    color: #F4F4FD;
 }
 
